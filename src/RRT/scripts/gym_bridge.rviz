@@ -1,0 +1,995 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+      Splitter Ratio: 0.5
+    Tree Height: 787
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/Tool Properties
+    Expanded:
+      - /2D Goal Pose1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz_default_plugins/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: Map
+      Topic:
+        Depth: 5
+        Durability Policy: Transient Local
+        History Policy: Keep All
+        Reliability Policy: Reliable
+        Value: /map
+      Update Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /map_updates
+      Use Timestamp: false
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 41.4345588684082
+        Min Value: -18.53678321838379
+        Value: true
+      Axis: X
+      Channel Name: intensity
+      Class: rviz_default_plugins/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: AxisColor
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 4096
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: LaserScan
+      Position Transformer: XYZ
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.10000000149011612
+      Style: Flat Squares
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /scan
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz_default_plugins/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 4096
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: LaserScan
+      Position Transformer: XYZ
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /opp_scan
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: false
+      Description File: ""
+      Description Source: Topic
+      Description Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /ego_robot_description
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        ego_racecar/back_left_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ego_racecar/back_right_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ego_racecar/base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ego_racecar/front_left_hinge:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        ego_racecar/front_left_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ego_racecar/front_right_hinge:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        ego_racecar/front_right_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ego_racecar/laser_model:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel1
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: false
+      Description File: ""
+      Description Source: Topic
+      Description Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /opp_robot_description
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        opp_racecar/back_left_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        opp_racecar/back_right_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        opp_racecar/base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        opp_racecar/front_left_hinge:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        opp_racecar/front_left_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        opp_racecar/front_right_hinge:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        opp_racecar/front_right_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        opp_racecar/laser_model:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel2
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        global_planner: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /global_path_2
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: MarkerArray
+      Namespaces:
+        occupancy_grid_0: true
+        occupancy_grid_1: true
+        occupancy_grid_10: true
+        occupancy_grid_100: true
+        occupancy_grid_101: true
+        occupancy_grid_102: true
+        occupancy_grid_103: true
+        occupancy_grid_104: true
+        occupancy_grid_105: true
+        occupancy_grid_106: true
+        occupancy_grid_107: true
+        occupancy_grid_108: true
+        occupancy_grid_109: true
+        occupancy_grid_11: true
+        occupancy_grid_110: true
+        occupancy_grid_111: true
+        occupancy_grid_112: true
+        occupancy_grid_113: true
+        occupancy_grid_114: true
+        occupancy_grid_115: true
+        occupancy_grid_116: true
+        occupancy_grid_117: true
+        occupancy_grid_118: true
+        occupancy_grid_119: true
+        occupancy_grid_12: true
+        occupancy_grid_120: true
+        occupancy_grid_121: true
+        occupancy_grid_122: true
+        occupancy_grid_123: true
+        occupancy_grid_124: true
+        occupancy_grid_125: true
+        occupancy_grid_126: true
+        occupancy_grid_127: true
+        occupancy_grid_128: true
+        occupancy_grid_129: true
+        occupancy_grid_13: true
+        occupancy_grid_130: true
+        occupancy_grid_131: true
+        occupancy_grid_132: true
+        occupancy_grid_133: true
+        occupancy_grid_134: true
+        occupancy_grid_135: true
+        occupancy_grid_136: true
+        occupancy_grid_137: true
+        occupancy_grid_138: true
+        occupancy_grid_139: true
+        occupancy_grid_14: true
+        occupancy_grid_140: true
+        occupancy_grid_141: true
+        occupancy_grid_142: true
+        occupancy_grid_143: true
+        occupancy_grid_144: true
+        occupancy_grid_145: true
+        occupancy_grid_146: true
+        occupancy_grid_147: true
+        occupancy_grid_148: true
+        occupancy_grid_149: true
+        occupancy_grid_15: true
+        occupancy_grid_150: true
+        occupancy_grid_151: true
+        occupancy_grid_152: true
+        occupancy_grid_153: true
+        occupancy_grid_154: true
+        occupancy_grid_155: true
+        occupancy_grid_156: true
+        occupancy_grid_157: true
+        occupancy_grid_158: true
+        occupancy_grid_159: true
+        occupancy_grid_16: true
+        occupancy_grid_160: true
+        occupancy_grid_161: true
+        occupancy_grid_162: true
+        occupancy_grid_163: true
+        occupancy_grid_164: true
+        occupancy_grid_165: true
+        occupancy_grid_166: true
+        occupancy_grid_167: true
+        occupancy_grid_168: true
+        occupancy_grid_169: true
+        occupancy_grid_17: true
+        occupancy_grid_170: true
+        occupancy_grid_171: true
+        occupancy_grid_172: true
+        occupancy_grid_173: true
+        occupancy_grid_174: true
+        occupancy_grid_175: true
+        occupancy_grid_176: true
+        occupancy_grid_177: true
+        occupancy_grid_178: true
+        occupancy_grid_179: true
+        occupancy_grid_18: true
+        occupancy_grid_180: true
+        occupancy_grid_181: true
+        occupancy_grid_182: true
+        occupancy_grid_183: true
+        occupancy_grid_184: true
+        occupancy_grid_185: true
+        occupancy_grid_186: true
+        occupancy_grid_187: true
+        occupancy_grid_188: true
+        occupancy_grid_189: true
+        occupancy_grid_19: true
+        occupancy_grid_190: true
+        occupancy_grid_191: true
+        occupancy_grid_192: true
+        occupancy_grid_193: true
+        occupancy_grid_194: true
+        occupancy_grid_195: true
+        occupancy_grid_196: true
+        occupancy_grid_197: true
+        occupancy_grid_198: true
+        occupancy_grid_199: true
+        occupancy_grid_2: true
+        occupancy_grid_20: true
+        occupancy_grid_200: true
+        occupancy_grid_201: true
+        occupancy_grid_202: true
+        occupancy_grid_203: true
+        occupancy_grid_204: true
+        occupancy_grid_205: true
+        occupancy_grid_206: true
+        occupancy_grid_207: true
+        occupancy_grid_208: true
+        occupancy_grid_209: true
+        occupancy_grid_21: true
+        occupancy_grid_210: true
+        occupancy_grid_211: true
+        occupancy_grid_212: true
+        occupancy_grid_213: true
+        occupancy_grid_214: true
+        occupancy_grid_215: true
+        occupancy_grid_216: true
+        occupancy_grid_217: true
+        occupancy_grid_218: true
+        occupancy_grid_219: true
+        occupancy_grid_22: true
+        occupancy_grid_220: true
+        occupancy_grid_221: true
+        occupancy_grid_222: true
+        occupancy_grid_223: true
+        occupancy_grid_224: true
+        occupancy_grid_225: true
+        occupancy_grid_226: true
+        occupancy_grid_227: true
+        occupancy_grid_228: true
+        occupancy_grid_229: true
+        occupancy_grid_23: true
+        occupancy_grid_230: true
+        occupancy_grid_231: true
+        occupancy_grid_232: true
+        occupancy_grid_233: true
+        occupancy_grid_234: true
+        occupancy_grid_235: true
+        occupancy_grid_236: true
+        occupancy_grid_237: true
+        occupancy_grid_238: true
+        occupancy_grid_239: true
+        occupancy_grid_24: true
+        occupancy_grid_240: true
+        occupancy_grid_241: true
+        occupancy_grid_242: true
+        occupancy_grid_243: true
+        occupancy_grid_244: true
+        occupancy_grid_245: true
+        occupancy_grid_246: true
+        occupancy_grid_247: true
+        occupancy_grid_248: true
+        occupancy_grid_249: true
+        occupancy_grid_25: true
+        occupancy_grid_250: true
+        occupancy_grid_251: true
+        occupancy_grid_252: true
+        occupancy_grid_253: true
+        occupancy_grid_254: true
+        occupancy_grid_255: true
+        occupancy_grid_256: true
+        occupancy_grid_257: true
+        occupancy_grid_258: true
+        occupancy_grid_259: true
+        occupancy_grid_26: true
+        occupancy_grid_260: true
+        occupancy_grid_261: true
+        occupancy_grid_262: true
+        occupancy_grid_263: true
+        occupancy_grid_264: true
+        occupancy_grid_265: true
+        occupancy_grid_266: true
+        occupancy_grid_267: true
+        occupancy_grid_268: true
+        occupancy_grid_269: true
+        occupancy_grid_27: true
+        occupancy_grid_270: true
+        occupancy_grid_271: true
+        occupancy_grid_272: true
+        occupancy_grid_28: true
+        occupancy_grid_29: true
+        occupancy_grid_3: true
+        occupancy_grid_30: true
+        occupancy_grid_31: true
+        occupancy_grid_32: true
+        occupancy_grid_33: true
+        occupancy_grid_34: true
+        occupancy_grid_35: true
+        occupancy_grid_36: true
+        occupancy_grid_37: true
+        occupancy_grid_38: true
+        occupancy_grid_39: true
+        occupancy_grid_4: true
+        occupancy_grid_40: true
+        occupancy_grid_41: true
+        occupancy_grid_42: true
+        occupancy_grid_43: true
+        occupancy_grid_44: true
+        occupancy_grid_45: true
+        occupancy_grid_46: true
+        occupancy_grid_47: true
+        occupancy_grid_48: true
+        occupancy_grid_49: true
+        occupancy_grid_5: true
+        occupancy_grid_50: true
+        occupancy_grid_51: true
+        occupancy_grid_52: true
+        occupancy_grid_53: true
+        occupancy_grid_54: true
+        occupancy_grid_55: true
+        occupancy_grid_56: true
+        occupancy_grid_57: true
+        occupancy_grid_58: true
+        occupancy_grid_59: true
+        occupancy_grid_6: true
+        occupancy_grid_60: true
+        occupancy_grid_61: true
+        occupancy_grid_62: true
+        occupancy_grid_63: true
+        occupancy_grid_64: true
+        occupancy_grid_65: true
+        occupancy_grid_66: true
+        occupancy_grid_67: true
+        occupancy_grid_68: true
+        occupancy_grid_69: true
+        occupancy_grid_7: true
+        occupancy_grid_70: true
+        occupancy_grid_71: true
+        occupancy_grid_72: true
+        occupancy_grid_73: true
+        occupancy_grid_74: true
+        occupancy_grid_75: true
+        occupancy_grid_76: true
+        occupancy_grid_77: true
+        occupancy_grid_78: true
+        occupancy_grid_79: true
+        occupancy_grid_8: true
+        occupancy_grid_80: true
+        occupancy_grid_81: true
+        occupancy_grid_82: true
+        occupancy_grid_83: true
+        occupancy_grid_84: true
+        occupancy_grid_85: true
+        occupancy_grid_86: true
+        occupancy_grid_87: true
+        occupancy_grid_88: true
+        occupancy_grid_89: true
+        occupancy_grid_9: true
+        occupancy_grid_90: true
+        occupancy_grid_91: true
+        occupancy_grid_92: true
+        occupancy_grid_93: true
+        occupancy_grid_94: true
+        occupancy_grid_95: true
+        occupancy_grid_96: true
+        occupancy_grid_97: true
+        occupancy_grid_98: true
+        occupancy_grid_99: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /grid_2
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        rrt: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /rrt_2
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        smooth_path: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /smooth_2
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        target_waypoint: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /waypoint_2
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        global_planner: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /global_path_1
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: MarkerArray
+      Namespaces:
+        occupancy_grid_0: true
+        occupancy_grid_1: true
+        occupancy_grid_10: true
+        occupancy_grid_100: true
+        occupancy_grid_101: true
+        occupancy_grid_102: true
+        occupancy_grid_103: true
+        occupancy_grid_104: true
+        occupancy_grid_105: true
+        occupancy_grid_106: true
+        occupancy_grid_107: true
+        occupancy_grid_108: true
+        occupancy_grid_109: true
+        occupancy_grid_11: true
+        occupancy_grid_110: true
+        occupancy_grid_111: true
+        occupancy_grid_112: true
+        occupancy_grid_113: true
+        occupancy_grid_114: true
+        occupancy_grid_115: true
+        occupancy_grid_116: true
+        occupancy_grid_117: true
+        occupancy_grid_118: true
+        occupancy_grid_119: true
+        occupancy_grid_12: true
+        occupancy_grid_120: true
+        occupancy_grid_121: true
+        occupancy_grid_122: true
+        occupancy_grid_123: true
+        occupancy_grid_124: true
+        occupancy_grid_125: true
+        occupancy_grid_126: true
+        occupancy_grid_127: true
+        occupancy_grid_128: true
+        occupancy_grid_129: true
+        occupancy_grid_13: true
+        occupancy_grid_130: true
+        occupancy_grid_131: true
+        occupancy_grid_132: true
+        occupancy_grid_133: true
+        occupancy_grid_134: true
+        occupancy_grid_135: true
+        occupancy_grid_136: true
+        occupancy_grid_137: true
+        occupancy_grid_138: true
+        occupancy_grid_139: true
+        occupancy_grid_14: true
+        occupancy_grid_140: true
+        occupancy_grid_141: true
+        occupancy_grid_142: true
+        occupancy_grid_143: true
+        occupancy_grid_144: true
+        occupancy_grid_145: true
+        occupancy_grid_146: true
+        occupancy_grid_147: true
+        occupancy_grid_148: true
+        occupancy_grid_149: true
+        occupancy_grid_15: true
+        occupancy_grid_150: true
+        occupancy_grid_151: true
+        occupancy_grid_152: true
+        occupancy_grid_153: true
+        occupancy_grid_154: true
+        occupancy_grid_155: true
+        occupancy_grid_156: true
+        occupancy_grid_157: true
+        occupancy_grid_158: true
+        occupancy_grid_159: true
+        occupancy_grid_16: true
+        occupancy_grid_160: true
+        occupancy_grid_161: true
+        occupancy_grid_162: true
+        occupancy_grid_163: true
+        occupancy_grid_164: true
+        occupancy_grid_165: true
+        occupancy_grid_166: true
+        occupancy_grid_167: true
+        occupancy_grid_168: true
+        occupancy_grid_169: true
+        occupancy_grid_17: true
+        occupancy_grid_170: true
+        occupancy_grid_171: true
+        occupancy_grid_172: true
+        occupancy_grid_173: true
+        occupancy_grid_174: true
+        occupancy_grid_175: true
+        occupancy_grid_176: true
+        occupancy_grid_177: true
+        occupancy_grid_178: true
+        occupancy_grid_179: true
+        occupancy_grid_18: true
+        occupancy_grid_180: true
+        occupancy_grid_181: true
+        occupancy_grid_182: true
+        occupancy_grid_183: true
+        occupancy_grid_184: true
+        occupancy_grid_185: true
+        occupancy_grid_186: true
+        occupancy_grid_187: true
+        occupancy_grid_188: true
+        occupancy_grid_189: true
+        occupancy_grid_19: true
+        occupancy_grid_190: true
+        occupancy_grid_191: true
+        occupancy_grid_192: true
+        occupancy_grid_193: true
+        occupancy_grid_194: true
+        occupancy_grid_195: true
+        occupancy_grid_196: true
+        occupancy_grid_197: true
+        occupancy_grid_198: true
+        occupancy_grid_199: true
+        occupancy_grid_2: true
+        occupancy_grid_20: true
+        occupancy_grid_200: true
+        occupancy_grid_201: true
+        occupancy_grid_202: true
+        occupancy_grid_203: true
+        occupancy_grid_204: true
+        occupancy_grid_205: true
+        occupancy_grid_206: true
+        occupancy_grid_207: true
+        occupancy_grid_208: true
+        occupancy_grid_209: true
+        occupancy_grid_21: true
+        occupancy_grid_210: true
+        occupancy_grid_211: true
+        occupancy_grid_212: true
+        occupancy_grid_213: true
+        occupancy_grid_214: true
+        occupancy_grid_215: true
+        occupancy_grid_216: true
+        occupancy_grid_217: true
+        occupancy_grid_218: true
+        occupancy_grid_219: true
+        occupancy_grid_22: true
+        occupancy_grid_220: true
+        occupancy_grid_221: true
+        occupancy_grid_222: true
+        occupancy_grid_223: true
+        occupancy_grid_224: true
+        occupancy_grid_225: true
+        occupancy_grid_226: true
+        occupancy_grid_227: true
+        occupancy_grid_228: true
+        occupancy_grid_229: true
+        occupancy_grid_23: true
+        occupancy_grid_230: true
+        occupancy_grid_231: true
+        occupancy_grid_232: true
+        occupancy_grid_233: true
+        occupancy_grid_234: true
+        occupancy_grid_235: true
+        occupancy_grid_236: true
+        occupancy_grid_237: true
+        occupancy_grid_238: true
+        occupancy_grid_239: true
+        occupancy_grid_24: true
+        occupancy_grid_240: true
+        occupancy_grid_241: true
+        occupancy_grid_242: true
+        occupancy_grid_243: true
+        occupancy_grid_244: true
+        occupancy_grid_245: true
+        occupancy_grid_246: true
+        occupancy_grid_247: true
+        occupancy_grid_248: true
+        occupancy_grid_249: true
+        occupancy_grid_25: true
+        occupancy_grid_250: true
+        occupancy_grid_251: true
+        occupancy_grid_252: true
+        occupancy_grid_253: true
+        occupancy_grid_254: true
+        occupancy_grid_255: true
+        occupancy_grid_256: true
+        occupancy_grid_257: true
+        occupancy_grid_258: true
+        occupancy_grid_259: true
+        occupancy_grid_26: true
+        occupancy_grid_260: true
+        occupancy_grid_261: true
+        occupancy_grid_262: true
+        occupancy_grid_263: true
+        occupancy_grid_264: true
+        occupancy_grid_265: true
+        occupancy_grid_266: true
+        occupancy_grid_267: true
+        occupancy_grid_268: true
+        occupancy_grid_269: true
+        occupancy_grid_27: true
+        occupancy_grid_270: true
+        occupancy_grid_271: true
+        occupancy_grid_272: true
+        occupancy_grid_28: true
+        occupancy_grid_29: true
+        occupancy_grid_3: true
+        occupancy_grid_30: true
+        occupancy_grid_31: true
+        occupancy_grid_32: true
+        occupancy_grid_33: true
+        occupancy_grid_34: true
+        occupancy_grid_35: true
+        occupancy_grid_36: true
+        occupancy_grid_37: true
+        occupancy_grid_38: true
+        occupancy_grid_39: true
+        occupancy_grid_4: true
+        occupancy_grid_40: true
+        occupancy_grid_41: true
+        occupancy_grid_42: true
+        occupancy_grid_43: true
+        occupancy_grid_44: true
+        occupancy_grid_45: true
+        occupancy_grid_46: true
+        occupancy_grid_47: true
+        occupancy_grid_48: true
+        occupancy_grid_49: true
+        occupancy_grid_5: true
+        occupancy_grid_50: true
+        occupancy_grid_51: true
+        occupancy_grid_52: true
+        occupancy_grid_53: true
+        occupancy_grid_54: true
+        occupancy_grid_55: true
+        occupancy_grid_56: true
+        occupancy_grid_57: true
+        occupancy_grid_58: true
+        occupancy_grid_59: true
+        occupancy_grid_6: true
+        occupancy_grid_60: true
+        occupancy_grid_61: true
+        occupancy_grid_62: true
+        occupancy_grid_63: true
+        occupancy_grid_64: true
+        occupancy_grid_65: true
+        occupancy_grid_66: true
+        occupancy_grid_67: true
+        occupancy_grid_68: true
+        occupancy_grid_69: true
+        occupancy_grid_7: true
+        occupancy_grid_70: true
+        occupancy_grid_71: true
+        occupancy_grid_72: true
+        occupancy_grid_73: true
+        occupancy_grid_74: true
+        occupancy_grid_75: true
+        occupancy_grid_76: true
+        occupancy_grid_77: true
+        occupancy_grid_78: true
+        occupancy_grid_79: true
+        occupancy_grid_8: true
+        occupancy_grid_80: true
+        occupancy_grid_81: true
+        occupancy_grid_82: true
+        occupancy_grid_83: true
+        occupancy_grid_84: true
+        occupancy_grid_85: true
+        occupancy_grid_86: true
+        occupancy_grid_87: true
+        occupancy_grid_88: true
+        occupancy_grid_89: true
+        occupancy_grid_9: true
+        occupancy_grid_90: true
+        occupancy_grid_91: true
+        occupancy_grid_92: true
+        occupancy_grid_93: true
+        occupancy_grid_94: true
+        occupancy_grid_95: true
+        occupancy_grid_96: true
+        occupancy_grid_97: true
+        occupancy_grid_98: true
+        occupancy_grid_99: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /grid_1
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        rrt: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /rrt_1
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        smooth_path: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /smooth_1
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        target_waypoint: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /waypoint_1
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: map
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+      Line color: 128; 128; 0
+    - Class: rviz_default_plugins/SetInitialPose
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /initialpose
+    - Class: rviz_default_plugins/SetGoal
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /goal_pose
+    - Class: rviz_default_plugins/PublishPoint
+      Single click: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /clicked_point
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 10
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 3.756343126296997
+        Y: -2.1289260387420654
+        Z: 3.009005069732666
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.890397846698761
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz)
+      Yaw: 4.120400428771973
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1016
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd0000000400000000000001b40000039efc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003d0000039e000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f0000039efc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073010000003d0000039e000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004420000003efc0100000002fb0000000800540069006d00650100000000000004420000000000000000fb0000000800540069006d00650100000000000004500000000000000000000004690000039e00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 1848
+  X: 72
+  Y: 27
